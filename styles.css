@@ -1,0 +1,126 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: normal;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 1.25rem 0;
+    border-radius: .5rem;
+    margin: 1rem 1rem 2rem ;
+}
+header a {
+    text-decoration: none;
+
+}
+nav ul {
+    list-style: none;
+    margin-top: .6rem;
+}
+nav .list {
+    display: inline;
+    margin-inline: 0.9rem;
+}
+nav .list a {
+    color: white;
+    font-weight: 900;
+}
+nav .list a:hover {
+    color: wheat;
+    font-weight: 500;
+}
+
+/* Sections */
+section {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin: 1rem 1rem 2rem ;
+    box-shadow: 0 0.1rem .3rem rgba(0, 0, 0, 00.1);
+}
+img {
+    max-width: 100%;
+    border-radius: 0.6rem;
+}
+#section3 {
+    margin-bottom: 1.9rem;
+}
+h2 {
+    color: #4a90e2;
+    margin-bottom: 0.6rem;
+}
+p {
+    margin-bottom: 0.9rem;
+}
+
+/* Blockquotes */
+blockquote {
+    background-color: #e3f2fd;
+    padding: 0.9rem;
+    border-left: 0.3rem solid #2196f3;
+    font-style: italic;
+    margin-bottom: 0.9rem;
+    color: #2196f3;
+}
+
+/* Buttons */
+button {
+    padding: 0.6rem 1.2rem;
+    margin-right: 0.6rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+.btn-primary {
+    background-color: #4a90e2;
+    color: white;
+}
+.btn-primary:hover {
+    background-color: #357ab8;
+}
+.btn-secondary {
+    background-color: #ccc;
+}
+.btn-secondary:hover {
+    background-color: #aaa;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+}
+form input {
+    padding: 0.6rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.3rem;
+}
+button[type="submit"] {
+    background-color: #4caf50;
+    color: whitesmoke;
+}
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding-block: 1.2rem;
+    background-color: #ddd;
+}
